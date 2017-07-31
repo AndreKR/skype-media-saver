@@ -1,5 +1,7 @@
 # Skype Media Saver
 
+![](https://ci.appveyor.com/api/projects/status/github/andrekr/skype-media-saver?branch=master&svg=true)
+
 ## What is this?
 
 There is a Skype setting called "When I receive a file..." where you can select a folder and Skype used to put all
