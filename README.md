@@ -37,4 +37,4 @@ go build -ldflags "-s -w -H=windowsgui"
 
 It will be linked by the go compiler to [tell windows to use modern windows buttons](https://msdn.microsoft.com/en-us/library/windows/desktop/bb773175(v=vs.85).aspx)
 in the dialogs. It can be generated from `beautiful_buttons.manifest.xml` with
-`rsrc -manifest=beautiful_dialogs.manifest.xml` (by [rsrc]()). 
+`rsrc -manifest=beautiful_dialogs.manifest.xml` (by [rsrc](https://github.com/akavel/rsrc)). 
