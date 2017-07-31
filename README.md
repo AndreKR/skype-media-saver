@@ -13,7 +13,7 @@ to its output folder.
 
 ## How to use?
 
-Download the [latest release](). Put it in a folder and make sure it can write to this folder. Put a link in the Start >
+Download the [latest release](https://github.com/AndreKR/skype-media-saver/releases/latest). Put it in a folder and make sure it can write to this folder. Put a link in the Start >
 All Programs > Startup folder. Run it.
 
 It will write every received picture to that folder.
