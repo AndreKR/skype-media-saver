@@ -110,7 +110,7 @@ func watch(dir SkypeProfileDirectory) {
 		if e.Op&fsnotify.Write == fsnotify.Write {
 			if strings.HasSuffix(e.Name, "_fullsize_distr.jpg") ||
 				strings.HasSuffix(e.Name, "_fullsize_distr.png") ||
-				strings.HasSuffix(e.Name, "_video_distr.mp4") {
+				strings.HasSuffix(e.Name, "video_distr.mp4") {
 
 				name := filepath.Base(e.Name)
 				err = copyFile(filepath.Join(output, name), e.Name)
@@ -136,7 +136,7 @@ func sync(from string, to string) {
 		}
 		if !(strings.HasSuffix(f.Name(), "_fullsize_distr.jpg") ||
 			strings.HasSuffix(f.Name(), "_fullsize_distr.png") ||
-			strings.HasSuffix(f.Name(), "_video_distr.mp4")) {
+			strings.HasSuffix(f.Name(), "video_distr.mp4")) {
 			continue
 		}
 
